@@ -27,9 +27,6 @@ public class Person {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj){
-            return true;
-        }
         return super.equals(obj);
     }
 
