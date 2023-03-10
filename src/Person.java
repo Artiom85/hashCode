@@ -29,9 +29,6 @@ public class Person {
     public boolean equals(Object obj) {
         if (this == obj){
             return true;
-            if (!(obj instanceof Person)){
-                return false;
-            }
         }
         return super.equals(obj);
     }
