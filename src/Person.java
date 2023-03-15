@@ -32,14 +32,11 @@ public class Person {
 
     @Override
     public int hashCode() {
-        return super.hashCode();
+        return age;
     }
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+        return name +" cu virsta de "+ hashCode();
     }
 }
